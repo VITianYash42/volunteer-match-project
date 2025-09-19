@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal-Sense</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">💜 VolunteerMatch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#opportunities-section">Opportunities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="volunteers.html">For Volunteers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opportunities.html">For Organizations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recommendations.html">Recommendations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-section text-white text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Connect Your Passion with Community Needs</h1>
+            <p class="lead my-4">Our AI-powered platform matches volunteers with the perfect opportunities to make a difference.</p>
+            <div>
+                <a href="volunteers.html" class="btn btn-light btn-lg me-2">I Want to Volunteer</a>
+                <a href="opportunities.html" class="btn btn-outline-light btn-lg">Post an Opportunity</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-section text-white text-center p-5">
+        <div class="container">
+            <h1>Find Volunteer Opportunities</h1>
+            <div class="input-group mt-4 mx-auto" style="max-width: 600px;">
+                <input type="text" class="form-control" placeholder="Search opportunities...">
+                <button class="btn btn-light" type="button">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">How It Works</h2>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="icon-circle mx-auto mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </div>
+                    <h3 class="h5">Find Opportunities</h3>
+                    <p class="text-muted">Browse volunteer opportunities posted by local organizations or receive AI-powered recommendations based on your profile.</p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="icon-circle mx-auto mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <h3 class="h5">Create Your Profile</h3>
+                    <p class="text-muted">Build your volunteer profile with your skills, interests, and availability to get matched with the perfect opportunities.</p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="icon-circle mx-auto mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    </div>
+                    <h3 class="h5">Make an Impact</h3>
+                    <p class="text-muted">Connect with organizations, volunteer your time, and see the real impact you're making in your community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container mt-5" id="opportunities-section">
+        <p class="mb-4"><strong id="opportunity-count"></strong></p>
+
+        <div class="row" id="opportunities-grid">
+            <p class = "featured"><h3>Featured Opportunities</h3></p>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="photo-1.avif" class="card-img-top" alt="Community Garden">
+                    <div class="card-body">
+                        <h5 class="card-title">Community Garden Maintenance</h5>
+                        <p class="card-text text-muted">Green Spaces Initiative</p>
+                        <p class="card-text"><small>Help maintain our community garden by watering plants and removing weeds.</small></p>
+                        <p class="card-text"><strong>Skills Needed:</strong></p>
+                        <span class="skill-tag">Gardening</span>
+                        <span class="skill-tag">Physical Labor</span>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 mb-2">
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="photo-2.avif" class="card-img-top" alt="Tutoring">
+                    <div class="card-body">
+                        <h5 class="card-title">Afterschool Tutoring Program</h5>
+                        <p class="card-text text-muted">Education For All</p>
+                        <p class="card-text"><small>Provide one-on-one tutoring for elementary students in math and reading.</small></p>
+                        <p class="card-text"><strong>Skills Needed:</strong></p>
+                        <span class="skill-tag">Teaching</span>
+                        <span class="skill-tag">Patience</span>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 mb-2">
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="photo-3.avif" class="card-img-top" alt="Shelter">
+                    <div class="card-body">
+                        <h5 class="card-title">Homeless Shelter Meal Service</h5>
+                        <p class="card-text text-muted">City Shelter Network</p>
+                        <p class="card-text"><small>Prepare and serve meals to residents at our homeless shelter. No cooking experience required.</small></p>
+                        <p class="card-text"><strong>Skills Needed:</strong></p>
+                        <span class="skill-tag">Food Handling</span>
+                        <span class="skill-tag">Teamwork</span>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 mb-2">
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="photo-4.avif" class="card-img-top" alt="Seniors at a show">
+                    <div class="card-body">
+                        <h5 class="card-title">Senior Companion Program</h5>
+                        <p class="card-text text-muted">Elder Care Alliance</p>
+                        <p class="card-text"><small>Visit with seniors in their homes or care facilities to provide companionship, play games, or help with light tasks.</small></p>
+                        <p class="card-text"><strong>Skills Needed:</strong></p>
+                        <span class="skill-tag">Empathy</span>
+                        <span class="skill-tag">Listening</span>
+                        <span class="skill-tag">Reliability</span>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 mb-2">
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="photo-5.avif" class="card-img-top" alt="Two dogs running">
+                    <div class="card-body">
+                        <h5 class="card-title">Animal Shelter Assistant</h5>
+                        <p class="card-text text-muted">Paws & Claws Rescue</p>
+                        <p class="card-text"><small>Help care for shelter animals by walking dogs, socializing cats, and assisting with kennel cleaning.</small></p>
+                        <p class="card-text"><strong>Skills Needed:</strong></p>
+                        <span class="skill-tag">Animal Handling</span>
+                        <span class="skill-tag">Compassion</span>
+                        <span class="skill-tag">Physical Stamina</span>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 mb-2">
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="photo-6.jpg" class="card-img-top" alt="People coding">
+                    <div class="card-body">
+                        <h5 class="card-title">Tech Skills Workshop Instructor</h5>
+                        <p class="card-text text-muted">Digital Inclusion Project</p>
+                        <p class="card-text"><small>Teach basic computer skills, internet safety, or coding to adults and seniors in our community tech center.</small></p>
+                        <p class="card-text"><strong>Skills Needed:</strong></p>
+                        <span class="skill-tag">Teaching</span>
+                        <span class="skill-tag">Technical Knowledge</span>
+                        <span class="skill-tag">Patience</span>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 mb-2">
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div> </div> ```
+
+        <section class="matching-details-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <div class="feature-icon mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.5 5L20 9l-4 4 1 5-5-2.5L7 18l1-5-4-4 5.5-2z"/></svg>
+                    </div>
+                    <h2 class="fw-bold">Intelligent Matching</h2>
+                    <p class="text-muted">Our AI recommendation engine analyzes volunteer profiles and community needs to suggest the most impactful matches.</p>
+                    
+                    <ul class="list-unstyled mt-4 benefits-list">
+                        <li>
+                            <svg xmlns="http://www.w.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <span>Matches based on skills and interests</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <span>Considers availability and location</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            <span>Learns from volunteer feedback</span>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="fw-bold text-decoration-none mt-3 d-inline-block">See how it works →</a>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="photo-ai.avif" alt="Team working on computers" class="img-fluid rounded shadow-sm">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 mb-4">
+                    <h5 class="fw-bold footer-brand">💜 VolunteerMatch</h5>
+                    <p class="footer-description">
+                        Connecting passionate volunteers with meaningful community
+                        opportunities through intelligent matching.
+                    </p>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h6 class="text-uppercase fw-bold">For Volunteers</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="volunteers.html">Create Profile</a></li>
+                        <li><a href="#">Browse Opportunities</a></li>
+                        <li><a href="recommendations.html">Get Recommendations</a></li>
+                        <li><a href="#">My Schedule</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h6 class="text-uppercase fw-bold">For Organizations</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="opportunities.html">Post Opportunity</a></li>
+                        <li><a href="#">Message Volunteers</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
