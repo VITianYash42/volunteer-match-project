@@ -9,6 +9,20 @@ This project is a high-fidelity frontend prototype built within a 36-hour timefr
 
 *Note: To meet the rapid deployment constraints of the hackathon, this repository currently focuses entirely on the Frontend UI/UX architecture and simulates the core recommendation logic using client-side JavaScript. There is no active backend database.*
 
+## 📸 Platform Previews
+
+<p align="center">
+  <img src="homepage.png" width="45%" alt="VolunteerMatch Homepage">
+  &nbsp; &nbsp;
+  <img src="recommendations.png" width="45%" alt="AI Recommendation Dashboard">
+</p>
+
+<p align="center">
+  <img src="profile.png" width="45%" alt="Volunteer Profile Creation">
+  &nbsp; &nbsp;
+  <img src="post-opportunity.png" width="45%" alt="Organization Post Opportunity">
+</p>
+
 ## ✨ Key Features
 * **Dual-Profile Architecture:** Separate, intuitive user journeys and interfaces for volunteers (skills, availability) and organizations (needs, locations).
 * **Simulated AI Recommendation Engine:** An interactive matching page that uses JavaScript to simulate the core logic of matching volunteer profiles with the most relevant community opportunities in real-time.
